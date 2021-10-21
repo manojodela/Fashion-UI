@@ -1,0 +1,52 @@
+@charset "utf-8";
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f6f5f5;
+    font-family: poppins;
+}
+
+
+.navbar-brand
+{
+  font-size: 30px !important;
+  
+}
+.nav-link
+{
+    font-size:22px !important;
+   
+}
+
+/*   footer */
+
+section {
+    width: 80%;
+    margin: 10px auto 100px auto;
+}
+
+
+.grid-container {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    position: relative;
+    bottom: 0;
+    top: 100%;
+}
+
+.grid-container>div {
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+.grid-container a {
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+}

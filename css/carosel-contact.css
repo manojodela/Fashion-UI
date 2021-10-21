@@ -1,0 +1,72 @@
+body{
+    background-color: #f6f5f5;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2a2a;
+}
+
+.navbar-brand
+{
+  font-size: 30px !important;
+  
+}
+.nav-link
+{
+    font-size:22px !important;
+   
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: 3em auto;
+}
+
+.form-group {
+    margin: 1em auto;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn {
+    margin: 20px 0 10px 90px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+/*--- footer ----*/
+
+.grid-container {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    position: relative;
+    bottom: 0;
+    top: 100%;
+}
+
+.grid-container>div {
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+.grid-container a {
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+}
