@@ -1,5 +1,5 @@
 # Screens
-HOme
+Home
 <img src="https://github.com/manojodela/Screens/blob/master/Home.png" alt="Home" />
 Carrer
 <img src="https://github.com/manojodela/Screens/blob/master/Carreer.png" alt="Career" />
